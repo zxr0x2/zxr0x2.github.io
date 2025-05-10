@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Tablature and Audio</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+        .tab-section {
+            margin-bottom: 30px;
+        }
+        .tab-section h2 {
+            margin-bottom: 10px;
+        }
+        .tablature {
+            white-space: pre;
+            font-family: monospace;
+            background-color: #3f0909a8;
+            padding: px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .audio-player {
+            margin-top: 10px;
+            background-color: #3f0909a8; 
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>view of you</h1>
+        <p>tabs and audio file to go off of</p>
+    </header>
+
+    <section class="tab-section">
+        <h2>riff</h2>
+        <div class="tablature">
+            d|-0-0-0--0--------------------|<br>
+            A|-2-0-2s-3---------------------|<br>
+            F|-2-2-2--2--------------------|<br>
+            C|-2-2-2--2--------------------|<br>
+            G|-0-0-0--0--------------------|<br>
+            C|-------------------------|<br>
+        </div>
+        
+
+    <section class="tab-section">
+        <h2>chords</h2>
+        <div class="tablature">
+            d|-----5-----0---------------|<br>
+            A|--r--3-----1----------------|<br>
+            F|--i--5-----0----------------|x2<br>
+            C|--f--4--4--2-----------------|<br>
+            G|--f--x--5--3-----------------|<br>
+            D|-----x--------------------|<br>
+        </div>
+        <section class="tab-section">
+        <h2>chords</h2>
+        <div class="tablature">
+            d|---2----0------------------|<br>
+            A|---2----0------------------|<br>
+            F|---2----0------------------|x2<br>
+            C|---4----0------------------|<br>
+            G|-----3--2------------------|<br>
+            D|--------3-----------------|<br>
+        </div>
+        <div class="audio-player">
+            <audio controls>
+                <source src="viewofyou.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+</body>
+</html>
